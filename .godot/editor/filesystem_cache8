@@ -1,0 +1,92 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701785485
+CharacterBody2D.gd::GDScript::-1::1680979539::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::8112858558018974075::1680879099::1680879106::1::::<><>::
+Player.cs::CSharpScript::-1::1701384752::0::1::::<>CharacterBody2D<>::
+Screen Shot 2023-04-07 at 11.57.17.png::CompressedTexture2D::4149535945528804438::1680879440::1680879464::1::::<><>::
+teste.tscn::PackedScene::6842525347055391924::1701689838::0::1::::<><>::res://Player.cs<>uid://b0ecir5gnuxcg::::res://Screen Shot 2023-04-07 at 11.57.17.png
+::res://character/::1680978683
+::res://modules/::1701626693
+::res://modules/inventory_system/::1701612831
+::res://modules/inventory_system/components/::1701689838
+InventoryManager.tscn::PackedScene::3939556576486393130::1701644407::0::1::::<><>::res://modules/inventory_system/scripts/inventory_manager.gd<>res://modules/inventory_system/scripts/inventory_data.gd
+ItemSlot.tscn::PackedScene::7211112295715450695::1701644407::0::1::::<><>::uid://cosx0evxia8ne::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png
+UI_DiabloStyle.tscn::PackedScene::8853782635036894459::1701689838::0::1::::<><>::uid://bhkqqrxdabm3n::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_9Slices.png<>uid://cosx0evxia8ne::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png<>res://modules/inventory_system/scripts/item_in_hand.gd<>res://modules/inventory_system/scripts/item_slot.gd<>uid://dgtaqxrtje275::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_2.png
+UI_Standart.tscn::PackedScene::6580970139572056350::1701644407::0::1::::<><>::
+::res://modules/inventory_system/scripts/::1701645498
+inventory_data.gd::GDScript::-1::1701608854::0::1::::inventoryData<>Node<>::
+inventory_manager.gd::GDScript::-1::1701626429::0::1::::InventoryManager<>Node<>::
+item_base.gd::GDScript::-1::1701611392::0::1::::ItemBase<>TextureRect<>::
+item_in_hand.gd::GDScript::-1::1701640254::0::1::::<>Control<>::
+item_slot.gd::GDScript::-1::1701645498::0::1::::ItemSlot<>TextureRect<>::
+::res://modules/inventory_system/sprites/::1701612839
+::res://modules/inventory_system/sprites/Retro Inventory/::1701612839
+#1 - Transparent Icons.png::CompressedTexture2D::2178474769982842172::1587301210::1701612839::1::::<><>::
+BG 9.png::CompressedTexture2D::4023002174782780558::1587304328::1701612839::1::::<><>::
+::res://modules/inventory_system/sprites/Retro Inventory/Original/::1701620740
+Health_01.png::CompressedTexture2D::8542952929528000878::1687458082::1701612839::1::::<><>::
+Health_01_Bar01.png::CompressedTexture2D::7381170338252521586::1687458092::1701612839::1::::<><>::
+Health_01_Bar02.png::CompressedTexture2D::2712949652543435341::1687458098::1701612839::1::::<><>::
+Health_01_Bar03.png::CompressedTexture2D::7527040606026108845::1687458102::1701612839::1::::<><>::
+Health_02.png::CompressedTexture2D::5092361336842852401::1687458118::1701612839::1::::<><>::
+Health_02_Bar01.png::CompressedTexture2D::4555142176284721755::1687458130::1701612839::1::::<><>::
+Health_02_Bar02.png::CompressedTexture2D::1378961763644686619::1687458134::1701612839::1::::<><>::
+Health_02_Bar03.png::CompressedTexture2D::2844122800724136257::1687458140::1701612839::1::::<><>::
+Health_03.png::CompressedTexture2D::7366693304256652943::1687458534::1701612839::1::::<><>::
+Health_03_Bar01.png::CompressedTexture2D::8254473454707871713::1687458540::1701612839::1::::<><>::
+Health_03_Bar02.png::CompressedTexture2D::4077574192625232759::1687458546::1701612839::1::::<><>::
+Health_03_Bar03.png::CompressedTexture2D::5623383967429191682::1687458552::1701612839::1::::<><>::
+Hearts.png::CompressedTexture2D::8119373233428175611::1687400996::1701612839::1::::<><>::
+Hearts_Blue_1.png::CompressedTexture2D::5015895767160373622::1687401300::1701612839::1::::<><>::
+Hearts_Blue_2.png::CompressedTexture2D::9171886223343405767::1687401300::1701612839::1::::<><>::
+Hearts_Blue_3.png::CompressedTexture2D::6237865754326916026::1687401300::1701612839::1::::<><>::
+Hearts_Blue_4.png::CompressedTexture2D::6217346802489080898::1687401300::1701612839::1::::<><>::
+Hearts_Blue_5.png::CompressedTexture2D::4449521780034775423::1687401300::1701612839::1::::<><>::
+Hearts_Red_1.png::CompressedTexture2D::7788081752574347800::1687401278::1701612839::1::::<><>::
+Hearts_Red_2.png::CompressedTexture2D::5292728262030390674::1687401278::1701612839::1::::<><>::
+Hearts_Red_3.png::CompressedTexture2D::7421486307801482057::1687401278::1701612839::1::::<><>::
+Hearts_Red_4.png::CompressedTexture2D::626059015329966069::1687401278::1701612839::1::::<><>::
+Hearts_Red_5.png::CompressedTexture2D::4609869577131503048::1687401278::1701612839::1::::<><>::
+Hearts_Yellow_1.png::CompressedTexture2D::4850815255809831013::1687401292::1701612839::1::::<><>::
+Hearts_Yellow_2.png::CompressedTexture2D::4208373560518732737::1687401292::1701612839::1::::<><>::
+Hearts_Yellow_3.png::CompressedTexture2D::208252337278789998::1687401292::1701612839::1::::<><>::
+Hearts_Yellow_4.png::CompressedTexture2D::8356638273949636436::1687401292::1701612839::1::::<><>::
+Hearts_Yellow_5.png::CompressedTexture2D::492772188156034890::1687401292::1701612839::1::::<><>::
+Heart_Blue.png::CompressedTexture2D::5078625140773585911::1687458584::1701612839::1::::<><>::
+Heart_Blue_1.png::CompressedTexture2D::6840759508149619968::1687460618::1701612839::1::::<><>::
+Heart_Blue_2.png::CompressedTexture2D::465509943251504420::1687460618::1701612839::1::::<><>::
+Heart_Blue_3.png::CompressedTexture2D::7075398409069068426::1687460618::1701612839::1::::<><>::
+Heart_Blue_4.png::CompressedTexture2D::1289765983613265754::1687460618::1701612839::1::::<><>::
+Heart_Orange.png::CompressedTexture2D::2114969580327596587::1687458572::1701612839::1::::<><>::
+Heart_Orange_1.png::CompressedTexture2D::8953479648980178020::1687460628::1701612839::1::::<><>::
+Heart_Orange_2.png::CompressedTexture2D::2477386705650787938::1687460628::1701612839::1::::<><>::
+Heart_Orange_3.png::CompressedTexture2D::7956990385068055657::1687460628::1701612839::1::::<><>::
+Heart_Orange_4.png::CompressedTexture2D::5381964590140864442::1687460628::1701612839::1::::<><>::
+Heart_Red.png::CompressedTexture2D::2875634499002597095::1687458566::1701612839::1::::<><>::
+Heart_Red_1.png::CompressedTexture2D::3303928800928800744::1687460636::1701612839::1::::<><>::
+Heart_Red_2.png::CompressedTexture2D::2733679978245808953::1687460636::1701612839::1::::<><>::
+Heart_Red_3.png::CompressedTexture2D::277477820040540525::1687460636::1701612839::1::::<><>::
+Heart_Red_4.png::CompressedTexture2D::3810066394703641827::1687460636::1701612839::1::::<><>::
+Inventory.png::CompressedTexture2D::5702384163448797910::1687401014::1701612839::1::::<><>::
+Inventory_9Slices.png::CompressedTexture2D::2899387339850481693::1687401338::1701612839::1::::<><>::
+Inventory_Example_01.png::CompressedTexture2D::7911882988698664411::1687400866::1701612839::1::::<><>::
+Inventory_Example_02.png::CompressedTexture2D::8909062046337969120::1687400882::1701612839::1::::<><>::
+Inventory_Example_03.png::CompressedTexture2D::5666356362204826296::1687400896::1701612839::1::::<><>::
+Inventory_Example_04.png::CompressedTexture2D::3327736292664414634::1687400908::1701612839::1::::<><>::
+Inventory_Slot_1.png::CompressedTexture2D::5794085357163019874::1701620738::1701620740::1::::<><>::
+Inventory_Slot_2.png::CompressedTexture2D::7619648098111329562::1687401330::1701612839::1::::<><>::
+Inventory_Slot_3.png::CompressedTexture2D::5817343600859251659::1687401330::1701612839::1::::<><>::
+Inventory_Slot_4.png::CompressedTexture2D::2871924994793948395::1687401330::1701612839::1::::<><>::
+Inventory_Slot_5.png::CompressedTexture2D::6027070560625282231::1687401330::1701612839::1::::<><>::
+Inventory_Slot_6.png::CompressedTexture2D::799914161659218221::1687401330::1701612839::1::::<><>::
+Inventory_Slot_7.png::CompressedTexture2D::3999036384273979641::1687401330::1701612839::1::::<><>::
+Inventory_Slot_8.png::CompressedTexture2D::4843303715770928436::1687401330::1701612839::1::::<><>::
+Inventory_Slot_9.png::CompressedTexture2D::8043145298726018302::1687401330::1701612839::1::::<><>::
+Inventory_Slot_10.png::CompressedTexture2D::2822667299274372733::1687401330::1701612839::1::::<><>::
+Settings.png::CompressedTexture2D::5552462708542078819::1687457958::1701612839::1::::<><>::
+Settings_Bar01.png::CompressedTexture2D::2402584851609700666::1687458020::1701612839::1::::<><>::
+Settings_Bar02.png::CompressedTexture2D::7212320117558193719::1687458024::1701612839::1::::<><>::
+Settings_Bar03.png::CompressedTexture2D::420116481011145755::1687458030::1701612839::1::::<><>::
+Settings_Cross01.png::CompressedTexture2D::8680656486492198933::1687458594::1701612839::1::::<><>::
+Settings_Cross02.png::CompressedTexture2D::4961996304951188643::1687458598::1701612839::1::::<><>::
+Settings_Cross03.png::CompressedTexture2D::2489828352664594576::1687458604::1701612839::1::::<><>::

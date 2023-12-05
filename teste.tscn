@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4qtnmbcbtgwi"]
+
+[ext_resource type="Script" path="res://Player.cs" id="1_8njck"]
+[ext_resource type="Texture2D" uid="uid://b0ecir5gnuxcg" path="res://Screen Shot 2023-04-07 at 11.57.17.png" id="2_uypcc"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m7lmk"]
+height = 36.0
+
+[node name="teste" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(189, 535)
+script = ExtResource("1_8njck")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+unique_name_in_owner = true
+position = Vector2(-1.19209e-07, -2.38419e-07)
+scale = Vector2(0.23262, 0.23262)
+texture = ExtResource("2_uypcc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CapsuleShape2D_m7lmk")

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwel6k7l6ke8y"]
+
+[ext_resource type="Script" path="res://modules/inventory_system/scripts/inventory_manager.gd" id="1_twba0"]
+[ext_resource type="Script" path="res://modules/inventory_system/scripts/inventory_data.gd" id="2_bx64o"]
+
+[node name="InventoryManager" type="Node"]
+script = ExtResource("1_twba0")
+
+[node name="InventoryData" type="Node" parent="."]
+script = ExtResource("2_bx64o")
+
+[node name="InventoryContainer" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 162.0
+offset_bottom = 114.0

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://da0d73v3028tv"]
+
+[ext_resource type="Texture2D" uid="uid://cosx0evxia8ne" path="res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png" id="1_o4d63"]
+
+[node name="TextureRect" type="TextureRect"]
+offset_right = 32.0
+offset_bottom = 32.0
+texture = ExtResource("1_o4d63")
