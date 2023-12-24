@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cp8c5ef70ovk5"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_17pqp"]
+
+[node name="ConveyorBelt" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 16.0
+offset_bottom = 16.0
+texture = SubResource("Texture2DRD_17pqp")

@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1gtgnnnob6wy"]
+
+[ext_resource type="Script" path="res://modules/managers/vampire_surviver_manager/ui_manager.gd" id="1_832df"]
+
+[node name="UiManager" type="Node"]
+script = ExtResource("1_832df")
+
+[node name="Canvas" type="CanvasLayer" parent="."]
+
+[node name="TimeLabel" type="Label" parent="Canvas"]
+offset_left = 532.0
+offset_right = 665.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 39
+text = "test"
+
+[node name="HealthLabel" type="Label" parent="Canvas"]
+offset_left = 15.0
+offset_right = 148.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 39
+text = "Lives: 100"
+
+[node name="ExpLabel" type="Label" parent="Canvas"]
+offset_left = 15.0
+offset_top = 56.0
+offset_right = 125.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 39
+text = "Exp: 0"
+
+[node name="DificultLabel" type="Label" parent="Canvas"]
+offset_left = 973.0
+offset_right = 1083.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 39
+text = "Level: 0"

@@ -1,2 +1,6 @@
-res://teste.tscn
-res://modules/inventory_system/components/UI_DiabloStyle.tscn
+res://modules/player/surviver_game/component/debug_scene.tscn
+res://modules/managers/vampire_surviver_manager/enemy_manager.tscn
+res://modules/managers/vampire_surviver_manager/enemy_manager.gd
+res://modules/player/surviver_game/component/main_camera.tscn
+res://modules/managers/vampire_surviver_manager/ui_manager.gd
+res://modules/managers/vampire_surviver_manager/ui_manager.tscn

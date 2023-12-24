@@ -1,2 +1,9 @@
-/Applications/Visual Studio Code.app/Contents/MacOS
+/Users/wesley/Documents/godot_builds/surviver_v1
+res://modules/player/surviver_game/component
+res://modules/managers/vampire_surviver_manager
+res://modules/items/vampire_surviver_items
+res://modules/player/skills_database
+res://modules/player/surviver_game/assets
+res://modules/player/surviver_game/script
 res://
+/Applications/Visual Studio Code.app/Contents/MacOS

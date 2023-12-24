@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://bing23ypis6j2"]
+
+[ext_resource type="Script" path="res://modules/player/surviver_game/script/vampire_surviver_player.gd" id="1_b52ky"]
+[ext_resource type="Texture2D" uid="uid://cfs7olkkjrwip" path="res://modules/player/surviver_game/assets/player.png" id="2_0jage"]
+[ext_resource type="Script" path="res://modules/managers/vampire_surviver_manager/skill_manager.gd" id="3_e72re"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e46l8"]
+radius = 8.0
+height = 16.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5t4uj"]
+radius = 17.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jkrji"]
+radius = 8.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_b52ky")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_e46l8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_0jage")
+
+[node name="SkillManager" type="Node" parent="."]
+script = ExtResource("3_e72re")
+
+[node name="AreaCollectDrop" type="Area2D" parent="."]
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaCollectDrop"]
+shape = SubResource("CircleShape2D_5t4uj")
+
+[node name="PlayerHitBox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHitBox"]
+shape = SubResource("CircleShape2D_jkrji")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0spa8oqkrtns"]
+
+[ext_resource type="Script" path="res://modules/items/vampire_surviver_items/base_item_drop.gd" id="1_fdbc0"]
+[ext_resource type="Texture2D" uid="uid://bu76pyb46lkt" path="res://modules/items/vampire_surviver_items/base_item_drop.png" id="1_kww5g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u36r6"]
+
+[node name="BaseItemDrop" type="Node2D"]
+script = ExtResource("1_fdbc0")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_u36r6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_kww5g")

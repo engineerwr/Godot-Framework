@@ -1,18 +1,35 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701785485
+::res://::1703450497
 CharacterBody2D.gd::GDScript::-1::1680979539::0::1::::<>CharacterBody2D<>::
 icon.svg::CompressedTexture2D::8112858558018974075::1680879099::1680879106::1::::<><>::
-Player.cs::CSharpScript::-1::1701384752::0::1::::<>CharacterBody2D<>::
+README.md::TextFile::-1::1701785621::0::1::::<><>::
 Screen Shot 2023-04-07 at 11.57.17.png::CompressedTexture2D::4149535945528804438::1680879440::1680879464::1::::<><>::
-teste.tscn::PackedScene::6842525347055391924::1701689838::0::1::::<><>::res://Player.cs<>uid://b0ecir5gnuxcg::::res://Screen Shot 2023-04-07 at 11.57.17.png
+teste.tscn::PackedScene::6842525347055391924::1703000904::0::1::::<><>::uid://b0ecir5gnuxcg::::res://Screen Shot 2023-04-07 at 11.57.17.png
 ::res://character/::1680978683
-::res://modules/::1701626693
+::res://modules/::1703417884
+builder_system.gd::GDScript::-1::1702059097::0::1::::<>Node<>::
+::res://modules/ai/::1703345478
+::res://modules/ai/vampire_survival_ai/::1703345523
+::res://modules/ai/vampire_survival_ai/asset/::1703345720
+rat.png::CompressedTexture2D::9020303537666870543::1703344887::1703345720::1::::<><>::
+::res://modules/ai/vampire_survival_ai/component/::1703436389
+base_enemy.tscn::PackedScene::7276183379902436415::1703436389::0::1::::<><>::res://modules/ai/vampire_survival_ai/script/base_enemy.gd<>uid://d1rrc1cwn5wup::::res://modules/ai/vampire_survival_ai/asset/rat.png
+::res://modules/ai/vampire_survival_ai/script/::1703433922
+base_enemy.gd::GDScript::-1::1703433922::0::1::::<>CharacterBody2D<>::
+::res://modules/builder_system/::1703244800
+building_system.gd::GDScript::-1::1703244800::0::1::::BuildingSystem<>Node<>::
+patchfinder.gd::GDScript::-1::1702059226::0::1::::PatchFinder<>Node<>::
+::res://modules/builder_system/components/::1703254856
+building_tile_map.tscn::PackedScene::1557345631616734367::1703254856::0::1::::<><>::res://modules/builder_system/components/system.gd<>uid://dnt6uh8wq8bhb::::res://icon.svg
+ConveyorBelt.tscn::PackedScene::5893973714948679814::1703254825::0::1::::<><>::
+system.gd::GDScript::-1::1703254856::0::1::::<>Node2D<>::
+UnitTest.tscn::PackedScene::572760515131552302::1703000932::0::1::::<><>::
 ::res://modules/inventory_system/::1701612831
-::res://modules/inventory_system/components/::1701689838
+::res://modules/inventory_system/components/::1703254824
 InventoryManager.tscn::PackedScene::3939556576486393130::1701644407::0::1::::<><>::res://modules/inventory_system/scripts/inventory_manager.gd<>res://modules/inventory_system/scripts/inventory_data.gd
 ItemSlot.tscn::PackedScene::7211112295715450695::1701644407::0::1::::<><>::uid://cosx0evxia8ne::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png
-UI_DiabloStyle.tscn::PackedScene::8853782635036894459::1701689838::0::1::::<><>::uid://bhkqqrxdabm3n::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_9Slices.png<>uid://cosx0evxia8ne::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png<>res://modules/inventory_system/scripts/item_in_hand.gd<>res://modules/inventory_system/scripts/item_slot.gd<>uid://dgtaqxrtje275::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_2.png
-UI_Standart.tscn::PackedScene::6580970139572056350::1701644407::0::1::::<><>::
+UI_DiabloStyle.tscn::PackedScene::8853782635036894459::1703254824::0::1::::<><>::uid://bhkqqrxdabm3n::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_9Slices.png<>uid://cosx0evxia8ne::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_1.png<>res://modules/inventory_system/scripts/item_in_hand.gd<>res://modules/inventory_system/scripts/item_slot.gd<>uid://dgtaqxrtje275::::res://modules/inventory_system/sprites/Retro Inventory/Original/Inventory_Slot_2.png
+UI_Standart.tscn::PackedScene::6580970139572056350::1703254824::0::1::::<><>::
 ::res://modules/inventory_system/scripts/::1701645498
 inventory_data.gd::GDScript::-1::1701608854::0::1::::inventoryData<>Node<>::
 inventory_manager.gd::GDScript::-1::1701626429::0::1::::InventoryManager<>Node<>::
@@ -90,3 +107,41 @@ Settings_Bar03.png::CompressedTexture2D::420116481011145755::1687458030::1701612
 Settings_Cross01.png::CompressedTexture2D::8680656486492198933::1687458594::1701612839::1::::<><>::
 Settings_Cross02.png::CompressedTexture2D::4961996304951188643::1687458598::1701612839::1::::<><>::
 Settings_Cross03.png::CompressedTexture2D::2489828352664594576::1687458604::1701612839::1::::<><>::
+::res://modules/items/::1703418900
+::res://modules/items/vampire_surviver_items/::1703433968
+base_item_drop.gd::GDScript::-1::1703433968::0::1::::BaseItemDrop<>Node<>::
+base_item_drop.png::CompressedTexture2D::113475527109785339::1657072866::1703418917::1::::<><>::
+base_item_drop.tscn::PackedScene::8952054452133523008::1703420232::0::1::::<><>::res://modules/items/vampire_surviver_items/base_item_drop.gd<>uid://bu76pyb46lkt::::res://modules/items/vampire_surviver_items/base_item_drop.png
+::res://modules/managers/::1703381794
+::res://modules/managers/vampire_surviver_manager/::1703450455
+enemy_manager.gd::GDScript::-1::1703450393::0::1::::EnemyManager<>Node<>::
+enemy_manager.tscn::PackedScene::4250437906069845886::1703450285::0::1::::<><>::res://modules/managers/vampire_surviver_manager/enemy_manager.gd
+game_events.gd::GDScript::-1::1703446104::0::1::::<>Node<>::
+game_events.tscn::PackedScene::7442697237644922144::1703436389::0::1::::<><>::res://modules/managers/vampire_surviver_manager/game_events.gd
+game_manager.gd::GDScript::-1::1703450455::0::1::::GameManager<>Node<>::
+game_manager.tscn::PackedScene::6472109031862023096::1703439345::0::1::::<><>::res://modules/managers/vampire_surviver_manager/game_manager.gd
+skill_manager.gd::GDScript::-1::1703369504::0::1::::SkillManager<>Node<>::
+ui_manager.gd::GDScript::-1::1703449885::0::1::::<>Node<>::
+ui_manager.tscn::PackedScene::6611302609620849352::1703449672::0::1::::<><>::res://modules/managers/vampire_surviver_manager/ui_manager.gd
+UpgradeManager.tscn::PackedScene::7189038985225268098::1703439148::0::1::::<><>::
+upgrade_manager.gd::GDScript::-1::1703447079::0::1::::UpgradeManager<>Node<>::
+upgrade_manager.tscn::PackedScene::9002922194119953357::1703439142::0::1::::<><>::res://modules/managers/vampire_surviver_manager/upgrade_manager.gd
+::res://modules/managers/vampire_surviver_manager/model/::1703381871
+base_ability.gd::GDScript::-1::1703369985::0::1::::BaseAbility<>Node<>::
+::res://modules/player/::1703353271
+::res://modules/player/skills_database/::1703354420
+::res://modules/player/skills_database/sword_skill/::1703436389
+sword.png::CompressedTexture2D::6241566653600905467::1703354498::1703354509::1::::<><>::
+sword_object.tscn::PackedScene::6276397562998918964::1703436389::0::1::::<><>::uid://cu6pxqwmq0d6j::::res://modules/player/skills_database/sword_skill/sword.png
+sword_skill.gd::GDScript::-1::1703371491::0::1::::SwordSkill<>BaseAbility<>::
+::res://modules/player/surviver_game/::1703266521
+::res://modules/player/surviver_game/assets/::1703345720
+player.png::CompressedTexture2D::5162912923704606287::1703266828::1703266840::1::::<><>::
+tilemap.png::CompressedTexture2D::5294311059582929335::1703266635::1703266635::1::::<><>::
+::res://modules/player/surviver_game/component/::1703450455
+debug_scene.tscn::PackedScene::1842860350608871105::1703450455::0::1::::<><>::uid://chousajc0nod8::::res://modules/player/surviver_game/assets/tilemap.png<>uid://bing23ypis6j2::::res://modules/player/surviver_game/component/vampire_surviver_player.tscn<>uid://cpcqk8w7fix61::::res://modules/player/surviver_game/component/main_camera.tscn<>uid://dbwvxa32e64br::::res://modules/ai/vampire_survival_ai/component/base_enemy.tscn<>uid://b1s7ddtdfgxs5::::res://modules/managers/vampire_surviver_manager/enemy_manager.tscn<>uid://cyhexp3mc2kp1::::res://modules/managers/vampire_surviver_manager/game_manager.tscn<>uid://c1gtgnnnob6wy::::res://modules/managers/vampire_surviver_manager/ui_manager.tscn<>uid://d1jc2wb1dl5nt::::res://modules/managers/vampire_surviver_manager/upgrade_manager.tscn
+main_camera.tscn::PackedScene::5830793876005329060::1703347775::0::1::::<><>::res://modules/player/surviver_game/script/camera_controller.gd
+vampire_surviver_player.tscn::PackedScene::2975182370414243897::1703436389::0::1::::<><>::res://modules/player/surviver_game/script/vampire_surviver_player.gd<>uid://cfs7olkkjrwip::::res://modules/player/surviver_game/assets/player.png<>res://modules/managers/vampire_surviver_manager/skill_manager.gd
+::res://modules/player/surviver_game/script/::1703433923
+camera_controller.gd::GDScript::-1::1703273028::0::1::::<>Camera2D<>::
+vampire_surviver_player.gd::GDScript::-1::1703433923::0::1::::<>CharacterBody2D<>::

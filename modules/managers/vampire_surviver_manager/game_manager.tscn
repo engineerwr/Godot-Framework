@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyhexp3mc2kp1"]
+
+[ext_resource type="Script" path="res://modules/managers/vampire_surviver_manager/game_manager.gd" id="1_kku40"]
+
+[node name="GameManager" type="Node"]
+script = ExtResource("1_kku40")
+
+[node name="LevelTimer" type="Timer" parent="."]
+wait_time = 60.0
+autostart = true
